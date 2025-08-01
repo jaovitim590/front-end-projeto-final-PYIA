@@ -1,0 +1,79 @@
+/* Estilo para página Cadastrar Produto */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background: #f9fafb;
+  border-radius: 14px;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 0.1);
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #2563eb; /* azul para destaque */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #4b5563;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #2563eb;
+  box-shadow: 0 0 6px rgb(37 99 235 / 0.6);
+}
+
+button {
+  padding: 12px 0;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgb(37 99 235 / 0.5);
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #1e40af;
+  outline: none;
+}
+
+#msg {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #4b5563;
+  min-height: 1.5em;
+}

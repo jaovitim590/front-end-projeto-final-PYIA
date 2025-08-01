@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Remover Produto</title>
+  <link rel="stylesheet" href="remover.css">
+</head>
+<body>
+
+<h1>Remover Produto</h1>
+
+<form id="form-remover">
+  <label>ID do Produto:</label>
+  <input type="number" id="produto_id" min="1" required />
+
+  <label>Chave de Segurança:</label>
+  <input type="text" id="chave" placeholder="Digite a chave" required />
+
+  <button type="submit">Remover</button>
+</form>
+<div style="text-align:center; margin-bottom: 20px;">
+    <button onclick="window.location.href='../index.html'" style="
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    ">Voltar para a Página Principal</button>
+</div
+
+<p id="msg"></p>
+
+<script src="remover.js"></script>
+
+</body>
+</html>

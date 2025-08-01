@@ -1,0 +1,143 @@
+/* estilo para página principal do estoque */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e9f0fb;
+  margin: 0;
+  padding: 30px 20px;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #1e40af;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.btn-group {
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.btn-group a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 26px;
+  background-color: #2563eb;
+  color: white;
+  margin: 0 10px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 4px 8px rgb(37 99 235 / 0.4);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-group a:hover,
+.btn-group a:focus {
+  background-color: #1e40af;
+  box-shadow: 0 6px 12px rgb(30 64 175 / 0.6);
+  outline: none;
+}
+
+.table-container {
+  width: 100%;
+  max-width: 900px;
+  max-height: 350px;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgb(0 0 0 / 0.1);
+  border: none;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+  min-width: 600px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+  padding: 16px 14px;
+  text-align: center;
+}
+
+th {
+  background-color: #2563eb;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+tbody tr:hover {
+  background-color: #f0f5ff;
+  cursor: default;
+  transition: background-color 0.2s ease;
+}
+
+.pagination {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.pagination button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgb(37 99 235 / 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.pagination button:hover:not(:disabled) {
+  background-color: #1e40af;
+}
+
+.pagination button:disabled {
+  background-color: #94a3b8;
+  cursor: default;
+  box-shadow: none;
+}
+table {
+    width: 100%; 
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th, td {
+    padding: 16px 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: 48px; 
+    max-width: 250px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-container {
+    max-height: 700px; 
+    overflow-y: auto; 
+    border: 1px solid #ccc;
+    background-color: white;
+};

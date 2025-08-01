@@ -1,0 +1,79 @@
+/* Estilo para página Remover Produto */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 480px;
+  margin: 50px auto;
+  padding: 30px 25px;
+  background: #f9fafb;
+  border-radius: 14px;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 0.1);
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #dc2626; /* vermelho para alerta */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+label {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #4b5563;
+}
+
+input[type="number"],
+input[type="text"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  border-color: #dc2626;
+  box-shadow: 0 0 6px rgb(220 38 38 / 0.6);
+}
+
+button {
+  padding: 12px 0;
+  background-color: #dc2626;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgb(220 38 38 / 0.5);
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #b91c1c;
+  outline: none;
+}
+
+#msg {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  color: #4b5563;
+  min-height: 1.5em;
+}
